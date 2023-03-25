@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+public class modul2 {
+
+    public static void main(String[] args) {
+        ArrayList<String> hewan = new ArrayList<>();
+
+        hewan.add("Sapi");
+        hewan.add("Kelinci");
+        hewan.add("Kambing");
+        hewan.add("Unta");
+        hewan.add("Domba");
+
+        System.out.println("Hewan: " + hewan);
+
+        ArrayList<String> deleteHewan = new ArrayList<>();
+
+        deleteHewan.add("Kelinci");
+        deleteHewan.add("Kambing");
+        deleteHewan.add("Unta");
+
+        System.out.println("Hewan yang dihapus: " + deleteHewan);
+
+        hewan.remove("Kelinci");
+        hewan.remove("Kambing");
+        hewan.remove("Unta");
+
+        System.out.println("Output Hewan : " + hewan);
+    }
+}
