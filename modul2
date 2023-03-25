@@ -21,9 +21,7 @@ public class modul2 {
 
         System.out.println("Hewan yang dihapus: " + deleteHewan);
 
-        hewan.remove("Kelinci");
-        hewan.remove("Kambing");
-        hewan.remove("Unta");
+        hewan.removeall(deleteHewan);
 
         System.out.println("Output Hewan : " + hewan);
     }
